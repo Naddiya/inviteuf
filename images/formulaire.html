@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="gstyle.css">
+    <title>formulaire</title>
+
+</head>
+
+<body>
+    <h1>
+        Pour confirmer ta présence, merci de remplir ce formulaire :
+    </h1>
+        <form name="formulaire" action="traitement.php"  method="POST">
+            <p>
+                <label for="nom">Ton nom :</label>
+                <input type="text" name="nom" autofocus required/><br/>
+
+                <label for="howmuch">A combien (toi inclus) :</label>
+                <input type="number" name="howmuch" required/><br><br>
+
+                <label for="message">Besoin d'en dire plus ?</label><br />
+                <textarea type="text" name="message" >Yeahhh merci pour ton invitation !!!! Ca va être super !</textarea><br><br>
+                <input type="submit" value="Envoyer" />
+        </form>
+
+<div class="retour"><h2><a href="index.html">
+                Retour au site</h2></a></div>
+
+</body>
+
+</html>

@@ -1,0 +1,162 @@
+/* latin */
+@font-face {
+  font-family: "Fredoka One";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Fredoka One"), local("FredokaOne-Regular"),
+    url(https://fonts.gstatic.com/s/fredokaone/v5/k3kUo8kEI-tA1RRcTZGmTlHGCac.woff2)
+      format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Lobster";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lobster Regular"), local("Lobster-Regular"),
+    url(https://fonts.gstatic.com/s/lobster/v20/neILzCirqoswsqX9zoKmMw.woff2)
+      format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Permanent Marker";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Permanent Marker Regular"), local("PermanentMarker-Regular"),
+    url(https://fonts.gstatic.com/s/permanentmarker/v7/Fh4uPib9Iyv2ucM6pGQMWimMp004La2Cfw.woff2)
+      format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+/*General*/
+body {
+  margin:0;
+  width: 100vw;
+  height: 120vh;
+  background-color: rgb(253, 253, 171);
+}
+
+/*Head*/
+
+header h1,
+header h2 {
+  font-family: "Permanent Marker", Arial, Helvetica, sans-serif;
+  color:rgb(255, 215, 35);
+  font-size: 3em;
+  text-shadow: 4px 4px rgba(97, 51, 250, 0.493);
+  text-align: center;
+}
+
+header {
+  background-color: rgba(60, 0, 255, 0.493);
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 10;
+}
+
+
+/*upper block*/
+body img {
+  width: 100%;
+  z-index: 8;
+}
+
+.inscription {
+  width:20%;
+  height: 7%;
+  margin: auto;
+  border-radius: 100%;
+  text-align: center;
+  padding-top: 27px;
+  position: relative;
+  bottom: 400px;
+  right: 100px;
+  background:rgba(0, 0, 0, 0);
+  font-family :"Permanent Marker", Arial, Helvetica, sans-serif;
+  border: solid rgb(238, 11, 11) 15px;
+  background: rgb(3, 2, 2);
+}
+
+.inscription a {
+  text-decoration: none;
+  color:rgb(235, 107, 107);
+  font-size: 1.8em; 
+}
+
+/*lower block*/
+nav {
+  width: 100%;
+  z-index: 9;
+  margin-top : -120px;
+}
+
+nav h1 {
+  padding-bottom: 50px;
+  font-family: "Permanent Marker", Arial, Helvetica, sans-serif;
+  font-size: 3em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+nav .icones {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+  list-style: none;
+}
+
+.noctilien img {
+  width: 200px;
+}
+
+.noctilien {
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Permanent Marker", Arial, Helvetica, sans-serif;
+}
+
+/*navigation*/
+
+.inscription:hover {
+  opacity:0.8;
+}
+.voiture:hover {
+  opacity: 0.5;
+}
+.bus:hover {
+  opacity: 0.5;
+}
+.train:hover {
+  opacity: 0.5;
+}
+.avion:hover {
+  opacity: 0.5;
+}
+.noctilien img:hover {
+  opacity: 0.5;
+}
+
+/*footer*/
+footer {
+  font-family: "Fredoka One", Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  background-color: rgb(83, 219, 151);
+  text-align: center;
+}
+footer h2 {
+  margin-top: 80px;
+  padding-top: 20px;
+  margin-bottom: -20px;
+  
+}
+
